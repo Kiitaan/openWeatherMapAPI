@@ -1,0 +1,59 @@
+body {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  font-family: 'Verdana, sans-serif', 'Trebuchet MS, sans-serif', Arial;
+  background-image: url("nice_grey.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro {
+  font-size: 35px;
+}
+
+input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 50px;
+  width: 180px;
+  border-radius: 20px;
+  border-color: black;
+}
+
+input[type="text"]
+{
+    font-size:20px;
+    font-family: 'Verdana, sans-serif', 'Trebuchet MS, sans-serif', Arial;
+    text-align: center;
+}
+
+
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
+  width: 140px;
+  font-size: 15px;
+}
+
+.button:hover {
+  color: black;
+  background-color: #CCCCCC;
+}
+
+.temperature {
+  display: inline-block
+  margin: auto;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
